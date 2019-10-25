@@ -45,9 +45,14 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="strategy\ISortStrategy.cs" />
+    <Compile Include="strategy\SortAsc.cs" />
+    <Compile Include="strategy\SortClass.cs" />
+    <Compile Include="strategy\SortDesc.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
